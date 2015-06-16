@@ -6,6 +6,6 @@ require.config({
 });
 
 requirejs(['jquery', "helpers/utils"], function($, Util) {
-	console.log(Util.hello);
+	console.log(Util.helloWorld);
 	console.log($);
 });
